@@ -1,0 +1,12 @@
+[Bb]uild
+.[Dd][Ss]_[Ss]tore
+[Dd]ependencies
+*.class
+.idea
+[Ss]ugar/.vs
+[Ss]ugar/Assets/cert.pem
+[Ss]ugar/Assets/dh.pem
+[Ss]ugar/Assets/fullchain.pem
+[Ss]ugar/Assets/privkey.pem
+[Ss]ugar/Assets/site.csr
+[Ss]ugar/Sources/Sugar.hpp

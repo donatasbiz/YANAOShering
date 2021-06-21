@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60678AFB26580D7E0072A413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60678AFA26580D7E0072A413 /* AppDelegate.swift */; };
+		60678AFD26580D7E0072A413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60678AFC26580D7E0072A413 /* SceneDelegate.swift */; };
+		60678AFF26580D7E0072A413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60678AFE26580D7E0072A413 /* ViewController.swift */; };
+		60678B0226580D7E0072A413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60678B0026580D7E0072A413 /* Main.storyboard */; };
+		60678B0526580D7E0072A413 /* YANAORental.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60678B0326580D7E0072A413 /* YANAORental.xcdatamodeld */; };
+		60678B0726580D830072A413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60678B0626580D830072A413 /* Assets.xcassets */; };
+		60678B0A26580D830072A413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60678B0826580D830072A413 /* LaunchScreen.storyboard */; };
+		60678B1526580D830072A413 /* YANAORentalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60678B1426580D830072A413 /* YANAORentalTests.swift */; };
+		60678B2026580D830072A413 /* YANAORentalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60678B1F26580D830072A413 /* YANAORentalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60678B1126580D830072A413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60678AEF26580D7E0072A413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60678AF626580D7E0072A413;
+			remoteInfo = YANAORental;
+		};
+		60678B1C26580D830072A413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60678AEF26580D7E0072A413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60678AF626580D7E0072A413;
+			remoteInfo = YANAORental;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60678AF726580D7E0072A413 /* YANAORental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YANAORental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60678AFA26580D7E0072A413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60678AFC26580D7E0072A413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60678AFE26580D7E0072A413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60678B0126580D7E0072A413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60678B0426580D7E0072A413 /* YANAORental.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YANAORental.xcdatamodel; sourceTree = "<group>"; };
+		60678B0626580D830072A413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60678B0926580D830072A413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60678B0B26580D830072A413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60678B1026580D830072A413 /* YANAORentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YANAORentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60678B1426580D830072A413 /* YANAORentalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YANAORentalTests.swift; sourceTree = "<group>"; };
+		60678B1626580D830072A413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60678B1B26580D830072A413 /* YANAORentalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YANAORentalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60678B1F26580D830072A413 /* YANAORentalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YANAORentalUITests.swift; sourceTree = "<group>"; };
+		60678B2126580D830072A413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60678AF426580D7E0072A413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60678B0D26580D830072A413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60678B1826580D830072A413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60678AEE26580D7E0072A413 = {
+			isa = PBXGroup;
+			children = (
+				60678AF926580D7E0072A413 /* YANAORental */,
+				60678B1326580D830072A413 /* YANAORentalTests */,
+				60678B1E26580D830072A413 /* YANAORentalUITests */,
+				60678AF826580D7E0072A413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60678AF826580D7E0072A413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60678AF726580D7E0072A413 /* YANAORental.app */,
+				60678B1026580D830072A413 /* YANAORentalTests.xctest */,
+				60678B1B26580D830072A413 /* YANAORentalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60678AF926580D7E0072A413 /* YANAORental */ = {
+			isa = PBXGroup;
+			children = (
+				60678AFA26580D7E0072A413 /* AppDelegate.swift */,
+				60678AFC26580D7E0072A413 /* SceneDelegate.swift */,
+				60678AFE26580D7E0072A413 /* ViewController.swift */,
+				60678B0026580D7E0072A413 /* Main.storyboard */,
+				60678B0626580D830072A413 /* Assets.xcassets */,
+				60678B0826580D830072A413 /* LaunchScreen.storyboard */,
+				60678B0B26580D830072A413 /* Info.plist */,
+				60678B0326580D7E0072A413 /* YANAORental.xcdatamodeld */,
+			);
+			path = YANAORental;
+			sourceTree = "<group>";
+		};
+		60678B1326580D830072A413 /* YANAORentalTests */ = {
+			isa = PBXGroup;
+			children = (
+				60678B1426580D830072A413 /* YANAORentalTests.swift */,
+				60678B1626580D830072A413 /* Info.plist */,
+			);
+			path = YANAORentalTests;
+			sourceTree = "<group>";
+		};
+		60678B1E26580D830072A413 /* YANAORentalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60678B1F26580D830072A413 /* YANAORentalUITests.swift */,
+				60678B2126580D830072A413 /* Info.plist */,
+			);
+			path = YANAORentalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60678AF626580D7E0072A413 /* YANAORental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60678B2426580D830072A413 /* Build configuration list for PBXNativeTarget "YANAORental" */;
+			buildPhases = (
+				60678AF326580D7E0072A413 /* Sources */,
+				60678AF426580D7E0072A413 /* Frameworks */,
+				60678AF526580D7E0072A413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YANAORental;
+			productName = YANAORental;
+			productReference = 60678AF726580D7E0072A413 /* YANAORental.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60678B0F26580D830072A413 /* YANAORentalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60678B2726580D830072A413 /* Build configuration list for PBXNativeTarget "YANAORentalTests" */;
+			buildPhases = (
+				60678B0C26580D830072A413 /* Sources */,
+				60678B0D26580D830072A413 /* Frameworks */,
+				60678B0E26580D830072A413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60678B1226580D830072A413 /* PBXTargetDependency */,
+			);
+			name = YANAORentalTests;
+			productName = YANAORentalTests;
+			productReference = 60678B1026580D830072A413 /* YANAORentalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60678B1A26580D830072A413 /* YANAORentalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60678B2A26580D830072A413 /* Build configuration list for PBXNativeTarget "YANAORentalUITests" */;
+			buildPhases = (
+				60678B1726580D830072A413 /* Sources */,
+				60678B1826580D830072A413 /* Frameworks */,
+				60678B1926580D830072A413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60678B1D26580D830072A413 /* PBXTargetDependency */,
+			);
+			name = YANAORentalUITests;
+			productName = YANAORentalUITests;
+			productReference = 60678B1B26580D830072A413 /* YANAORentalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60678AEF26580D7E0072A413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					60678AF626580D7E0072A413 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					60678B0F26580D830072A413 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 60678AF626580D7E0072A413;
+					};
+					60678B1A26580D830072A413 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 60678AF626580D7E0072A413;
+					};
+				};
+			};
+			buildConfigurationList = 60678AF226580D7E0072A413 /* Build configuration list for PBXProject "YANAORental" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60678AEE26580D7E0072A413;
+			productRefGroup = 60678AF826580D7E0072A413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60678AF626580D7E0072A413 /* YANAORental */,
+				60678B0F26580D830072A413 /* YANAORentalTests */,
+				60678B1A26580D830072A413 /* YANAORentalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60678AF526580D7E0072A413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60678B0A26580D830072A413 /* LaunchScreen.storyboard in Resources */,
+				60678B0726580D830072A413 /* Assets.xcassets in Resources */,
+				60678B0226580D7E0072A413 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60678B0E26580D830072A413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60678B1926580D830072A413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60678AF326580D7E0072A413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60678AFF26580D7E0072A413 /* ViewController.swift in Sources */,
+				60678AFB26580D7E0072A413 /* AppDelegate.swift in Sources */,
+				60678B0526580D7E0072A413 /* YANAORental.xcdatamodeld in Sources */,
+				60678AFD26580D7E0072A413 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60678B0C26580D830072A413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60678B1526580D830072A413 /* YANAORentalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60678B1726580D830072A413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60678B2026580D830072A413 /* YANAORentalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60678B1226580D830072A413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60678AF626580D7E0072A413 /* YANAORental */;
+			targetProxy = 60678B1126580D830072A413 /* PBXContainerItemProxy */;
+		};
+		60678B1D26580D830072A413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60678AF626580D7E0072A413 /* YANAORental */;
+			targetProxy = 60678B1C26580D830072A413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60678B0026580D7E0072A413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60678B0126580D7E0072A413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60678B0826580D830072A413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60678B0926580D830072A413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60678B2226580D830072A413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60678B2326580D830072A413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60678B2526580D830072A413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YANAORental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shkarin.YANAORental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60678B2626580D830072A413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YANAORental/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shkarin.YANAORental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60678B2826580D830072A413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YANAORentalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shkarin.YANAORentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YANAORental.app/YANAORental";
+			};
+			name = Debug;
+		};
+		60678B2926580D830072A413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YANAORentalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shkarin.YANAORentalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YANAORental.app/YANAORental";
+			};
+			name = Release;
+		};
+		60678B2B26580D830072A413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YANAORentalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shkarin.YANAORentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YANAORental;
+			};
+			name = Debug;
+		};
+		60678B2C26580D830072A413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YANAORentalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shkarin.YANAORentalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YANAORental;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60678AF226580D7E0072A413 /* Build configuration list for PBXProject "YANAORental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60678B2226580D830072A413 /* Debug */,
+				60678B2326580D830072A413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60678B2426580D830072A413 /* Build configuration list for PBXNativeTarget "YANAORental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60678B2526580D830072A413 /* Debug */,
+				60678B2626580D830072A413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60678B2726580D830072A413 /* Build configuration list for PBXNativeTarget "YANAORentalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60678B2826580D830072A413 /* Debug */,
+				60678B2926580D830072A413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60678B2A26580D830072A413 /* Build configuration list for PBXNativeTarget "YANAORentalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60678B2B26580D830072A413 /* Debug */,
+				60678B2C26580D830072A413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		60678B0326580D7E0072A413 /* YANAORental.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60678B0426580D7E0072A413 /* YANAORental.xcdatamodel */,
+			);
+			currentVersion = 60678B0426580D7E0072A413 /* YANAORental.xcdatamodel */;
+			path = YANAORental.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 60678AEF26580D7E0072A413 /* Project object */;
+}

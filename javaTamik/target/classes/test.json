@@ -1,0 +1,6 @@
+{
+  "req": "AddNewInventoryForAdmin",
+  "adres": "Юбилейный пр 33",
+  "typeInventory": "aircraft",
+  "count": "15"
+}

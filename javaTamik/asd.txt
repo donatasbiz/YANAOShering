@@ -1,0 +1,2 @@
+Connection::OnHandshake: asio.ssl : sslv3 alert certificate unknown
+Connection::OnHandshake: asio.ssl : sslv3 alert certificate unknown
